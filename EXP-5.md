@@ -6,7 +6,6 @@ MATLAB
 
  
 # PROGRAM:
-
 clc;
 t=0:0.0001:0.15;
 m = square(2*pi*10*t);
@@ -26,9 +25,10 @@ subplot(3,1,3);
 plot(y1);
 
 # OUTPUT:
+<img width="815" height="550" alt="AMPLITUDE SHIFT KEYING" src="https://github.com/user-attachments/assets/234c99b0-4d2d-42b5-ac4a-a07dd1ddf2ad" />
+
 
 # RESULT:
 Thus, generation of ASK was implemented using MATLAB.
 
  
-
