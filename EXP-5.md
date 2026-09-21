@@ -1,31 +1,52 @@
 # AIM:
-To implement ASK, FSK, BPSK using MATLAB.
+To implement ASK  using MATLAB.
 
 # SOFTWARE REQUIRED:
 MATLAB
 
  
 # PROGRAM:
+
 clc;
+
 t=0:0.0001:0.15;
-m = square(2*pi*10*t);
-c = sin(2*pi*60*t); y1=(m.*c);
-for i = 1:1500 
+
+m = square(2pi20*t);
+
+c = sin(2pi80*t);
+
+y1=(m.*c);
+
+for i = 1:1500
+
 if(m(i)==1)
-y1(i)=c(i);
-else y1(i)=0;
-end 
+
+    y1(i)=c(i);
+    
+else
+
+    y1(i)=0;
+    
 end
-figure(1) 
-subplot(3,1,1); 
-plot(m); 
-subplot(3,1,2); 
-plot(c); 
-subplot(3,1,3); 
+end
+
+figure(1)
+
+subplot(3,1,1);
+
+plot(m);
+
+subplot(3,1,2);
+
+plot(c);
+
+subplot(3,1,3);
+
 plot(y1);
 
 # OUTPUT:
-<img width="815" height="550" alt="AMPLITUDE SHIFT KEYING" src="https://github.com/user-attachments/assets/234c99b0-4d2d-42b5-ac4a-a07dd1ddf2ad" />
+<img width="765" height="515" alt="image" src="https://github.com/user-attachments/assets/a280c652-d379-4c71-8f07-55b44684b70a" />
+
 
 
 # RESULT:
