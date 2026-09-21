@@ -1,1 +1,46 @@
+# AIM:
+To study an amplitude modulation and demodulation circuit and to calculate
+modulation index of AM.
+
+# APPARATUS REQUIRED:
+1)	AM Transmitter and Receiver kit
+2)	DSO
+3)	Power supply
+4)	Patch chord
+
+# THEORY:
+Modulation can be defined as the process by which the characteristics of carrier wave are varied in accordance with the modulating wave (signal). Modulation is performed in a transmitter by a circuit called a modulator.
+Need for modulation is as follows:
+Avoid mixing of signals Reduction in antenna height long distance communication Multiplexing
+Improve the quality of reception Ease of radiation.
+Amplitude Modulation is the process of changing the amplitude of a relatively high frequency carrier signal in proportion with the instantaneous value of the modulating signal. The output waveform contains all the frequencies that make up the AM signal and is used to transport the information through the system. Therefore the shape of the modulated wave is called the AM envelope. With no modulating signal the output waveform is simply the carrier signal. Coefficient of modulation is a term used to describe the amount of amplitude change present in an AM waveform. There are three degrees of modulation available based on value of modulation index.
+Under modulation : m<1, Em < Ec Critical modulation: m-1, Em = Ec Over modulation:   m>1, Em > Ec
+
+# PROCEDURE:
+The connection n are made as per the circuit diagram
+Set the modulating signal frequency of 1khz and carrier signal frequency at 500khz. Vary the amplitude for the modulation index.
+a)	Modulation index less than 1
+b)	Modulation index equal to 1
+c)	Modulation index greater than 1
+ 
+# BLOCK DIAGRAM:
+<img width="776" height="472" alt="image" src="https://github.com/user-attachments/assets/55975fd8-ac34-4732-be24-ccbac7452b8f" />
+
+
+# MODEL GRAPH:
+<img width="613" height="861" alt="image" src="https://github.com/user-attachments/assets/13b8d6bf-5eb1-4ece-a004-3bfe8a5c5998" />
+
+
+# GRAPH:
+
+<img width="1169" height="1600" alt="image" src="https://github.com/user-attachments/assets/7f35d6f4-6c11-4109-b401-9696c4c81576" />
+
+# TABULATION:
+<img width="1600" height="1059" alt="image" src="https://github.com/user-attachments/assets/4956cdd3-1ecd-45ed-bfe1-31a16b81ded0" />
+
+
+# RESULT:
+Thus the amplitude modulation and demodulation is experimentally done and the output is verified.
+
+
 
